@@ -3,7 +3,6 @@ export type HeroVariant = "a1" | "a2" | "a3";
 export const heroVariants: Record<
   HeroVariant,
   {
-    label: string;
     category: string;
     title: string;
     support: string;
@@ -11,7 +10,6 @@ export const heroVariants: Record<
   }
 > = {
   a1: {
-    label: "A1 | Dor e nova saída",
     category: "Laboratório de PIVE",
     title: "Talvez R$500 mil nunca tenha sido o seu problema.",
     support:
@@ -19,7 +17,6 @@ export const heroVariants: Record<
     button: "Quero ver o plano por R$99",
   },
   a2: {
-    label: "A2 | Quebra de crença",
     category: "Curso presencial",
     title: "Você aprende numa Ferrari. Depois volta para casa a pé.",
     support:
@@ -27,7 +24,6 @@ export const heroVariants: Record<
     button: "Quero entender o caminho",
   },
   a3: {
-    label: "A3 | Resultado e oportunidade",
     category: "Mercado de embriões",
     title: "Tem fazenda querendo genética. Falta laboratório chegando até ela.",
     support:

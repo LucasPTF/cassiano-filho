@@ -28,7 +28,6 @@ export function SalesPage({ variant }: SalesPageProps) {
 
           <div className="hero-grid">
             <div className="hero-copy">
-              <div className="angle-label">{hero.label}</div>
               <p className="eyebrow">{hero.category}</p>
               <h1 className="hero-title">{hero.title}</h1>
               <p className="hero-support">{hero.support}</p>
