@@ -1,0 +1,10 @@
+node_modules/
+.next/
+.vinext/
+dist/
+.vercel/
+.wrangler/
+.env
+.env.*
+!.env.example
+*.log
